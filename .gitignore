@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 忽略 .vscode 文件夹
+.vscode/
+ 
+# 忽略 prettierrc 配置文件（取决于文件的确切名称）
+.prettierrc
