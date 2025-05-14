@@ -7,7 +7,7 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
   const item = data.find(item => item.id === Number(id))
 
   if (!item || !item.body) {
-    return <div>Post not found</div>
+    return <div>data not found</div>
   }
 
   return <BlogCard title={item.title} body={item.body} />

@@ -1,4 +1,5 @@
 'use client'
+import React from 'react'
 import { Card } from 'antd'
 
 interface BlogCardProps {
@@ -11,7 +12,7 @@ export default function BlogCard({ title, body }: BlogCardProps) {
     return <div>Content not available</div>
   }
   return (
-    <Card title={title} variant='borderless' style={{ width: 300 }}>
+    <Card title={title}>
       <p>{body}</p>
     </Card>
   )
