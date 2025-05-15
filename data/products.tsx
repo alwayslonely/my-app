@@ -1,0 +1,58 @@
+export const products = [
+  {
+    id: '1',
+    src: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    alt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+    price: 48,
+    name: 'Earthen Bottle',
+  },
+  {
+    id: '2',
+    src: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    alt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+    price: 35,
+    name: 'Nomad Tumbler',
+  },
+  {
+    id: '3',
+    src: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    alt: 'Person using a pen to cross a task off a productivity paper card.',
+    price: 89,
+    name: 'Focus Paper Refill',
+  },
+  {
+    id: '4',
+    src: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    alt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    price: 35,
+    name: 'Machined Mechanical Pencil',
+  },
+  {
+    id: '5',
+    src: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    alt: 'Paper card sitting upright in walnut card holder on desk.',
+    price: 64,
+    name: 'Paper Card Tray',
+  },
+  {
+    id: '6',
+    src: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-06.jpg',
+    alt: 'Stack of 3 small drab green cardboard paper card refill boxes with white text.',
+    price: 39,
+    name: 'Focus Multi-Pack',
+  },
+  {
+    id: '7',
+    src: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-07.jpg',
+    alt: 'Brass scissors with geometric design, black steel finger holes, and included upright brass stand.',
+    price: 50,
+    name: 'Brass Scissors',
+  },
+  {
+    id: '8',
+    src: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/category-page-04-image-card-08.jpg',
+    alt: 'Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.',
+    price: 32,
+    name: 'Focus Carry Pouch',
+  },
+]
